@@ -6,11 +6,13 @@ function Courses() {
   return (
     <>
       <Navbar />
-     {/* <div className='min-h-screen dark:bg-slate-900 dark:text-white'><Course /></div>  */}
-     <Course />
+      <div className=" min-h-screen">
+   <Course />
+   </div>
       <Footer />
     </>
   );
 }
 
 export default Courses;
+   {/* <div className='dark:bg-slate-900  dark:text-white'></div> */}
